@@ -3,8 +3,6 @@ from fastapi.middleware.cors import CORSMiddleware
 from database import engine, Base
 import app.models.models
 
-from app.routes import auth, clubs, events, upload, media, social, ai
-
 app = FastAPI(title="CIG Media Platform", version="1.0.0")
 
 app.add_middleware(
@@ -22,6 +20,8 @@ app.add_middleware(
 )
 
 Base.metadata.create_all(bind=engine)
+
+from app.routes import auth, clubs, events, upload, media, social, ai
 
 app.include_router(auth.router)
 app.include_router(clubs.router)
