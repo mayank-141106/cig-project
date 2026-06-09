@@ -18,7 +18,7 @@ CIG Media Platform is a centralized event and media management system where club
 
 ## Live Demo
 
-- **Frontend:** [https://cig-media-platform.vercel.app](https://cig-media-platform.vercel.app)
+- **Frontend:** [https://cig-project.vercel.app](https://cig-project.vercel.app)
 - **Backend API:** [https://cig-media-api.railway.app](https://cig-media-api.railway.app)
 - **API Docs:** [https://cig-media-api.railway.app/docs](https://cig-media-api.railway.app/docs)
 
