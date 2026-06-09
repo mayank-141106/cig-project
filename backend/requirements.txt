@@ -5,10 +5,12 @@ anyio==4.13.0
 bcrypt==5.0.0
 boto3==1.43.24
 botocore==1.43.24
+certifi==2026.5.20
 cffi==2.0.0
 click==8.4.1
 colorama==0.4.6
 cryptography==48.0.0
+cloudinary==1.44.2
 ecdsa==0.19.2
 email-validator==2.2.0
 fastapi==0.136.3
